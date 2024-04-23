@@ -1,0 +1,74 @@
+.register{
+    height : 100vh;
+    padding : 70px 50px 20px;
+    display : flex;
+    justify-content : center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFCCCC;
+}
+
+.register-heading{
+    text-align: center;
+    font-size : 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.register-desc{
+    font-size : 15px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color : rgb(118,118,118);
+    margin-bottom: 30px;
+}
+
+.register-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-img img{
+    height : 450px;
+}
+.register-form form{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    padding : 20px;
+    margin-left : 60px;
+    border-radius :12px;
+    background-color: rgb(218,238,255);
+}
+.register-form form input::placeholder{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.register-form form input{
+    padding : 7px 20px;
+    margin-top : 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    margin-top : 10px;
+}
+@media only screen and (max-width: 850px) {
+    .register{
+        height : 140vh;
+        padding : 70px 30px 70px;
+    }
+    .register-body{
+        flex-direction: column;
+    }
+    .register-img img{
+        height : 250px;
+        margin-bottom: 20px;
+    }
+    .register-form form{
+        margin-left : 20px;
+    }
+}
+
+
+

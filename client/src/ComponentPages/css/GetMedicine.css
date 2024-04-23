@@ -1,0 +1,52 @@
+/* GetMedicine.css */
+
+.Get-medicine-class{
+    height : 100vh;
+    background-color : #f1d99c;
+}
+.MedicineTable {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tableContainer {
+    width: 1200px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #b7b7f9;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  td {
+    font-size: 13px;
+  }
+  
+  th {
+    font-size: 15px;
+    background-color: #f2f2f2;
+  }
+  
+ .tableContainer button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  .button-class{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tableContainer button:hover {
+    background-color: #c82333;
+  }
+  

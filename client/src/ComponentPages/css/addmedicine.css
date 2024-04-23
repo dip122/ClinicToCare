@@ -1,0 +1,87 @@
+/* Style for the container of the medicine class */
+.div-medicine{
+    height: 100vh;
+    background-color: #AAC5E8;
+}
+.medicineclass {
+    height: 100vh;
+    padding: 50px 30px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Styles for the heading section */
+.medicineclass .heading {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Style for the heading name */
+.heading-name {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Style for the medicine description */
+.medicine-desc {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 8px;
+}
+
+/* Styles for the medicine form section */
+.medicine-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Style for the medicine form image */
+.medicine-form img {
+    height: 350px;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+/* Styles for the form class */
+.form-class form {
+    width : 500px;
+    margin: 30px auto; /* Center the form horizontally with auto margins */
+    padding: 20px;
+    background-color: aliceblue;
+    box-sizing: border-box; /* Include padding and border in the total width */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style for form inputs */
+.form-class form input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 12px; /* Add a 12px gap between consecutive input fields */
+}
+@media only screen and (max-width: 850px) {
+    .div-medicine{
+        height: 100vh;
+        background-color: #AAC5E8;
+    }
+    .medicineclass{
+        height : 100vh;
+        padding : 70px 30px 70px;
+    }
+    .medicine-form{
+        flex-direction: column;
+    }
+    .medicine-form img{
+        height : 250px;
+    }
+    .form-class form{
+        width : 300px;
+    }
+}

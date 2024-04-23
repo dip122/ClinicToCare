@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    padding : 30px;
+    display : flex;
+    justify-content : space-between;
+    background-color: black;
+    position: relative;
+}
+
+ul{
+    display : flex;
+    gap : 3.2rem;
+}
+
+#mobile-menu-button{
+    display: none;
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+}
+
+#mobile-menu{
+    display: none;
+}
+
+#mobile-menu-items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    #navbar {
+        display: none;
+    }
+    #mobile-menu-button{
+        display: flex;
+    }
+    #mobile-menu{
+        display: flex;
+    }
+}

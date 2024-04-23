@@ -1,0 +1,65 @@
+.loginclass{
+    height : 100vh;
+    padding : 70px 50px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(238,230,230);
+}
+.login-heading{
+    font-size : 30px;
+    margin-bottom : 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login-desc{
+    font-size: 15px;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(118,118,118);
+    margin-bottom: 32px;
+}
+.login-img img{
+    height : 450px;
+}
+.login-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding : 20px;
+    margin-left : 58px;
+    border-radius: 12px;
+    background-color: rgb(218,238,255);
+}
+
+.login-form form input{
+    width : 250px;
+    margin : 10px;
+    padding : 7px 20px;
+}
+button{
+    margin-top : 10px;
+}
+
+@media only screen and (max-width: 850px) {
+    .loginclass{
+        height : 140vh;
+        padding : 70px 30px 70px;
+    }
+    .login-body{
+        flex-direction: column;
+    }
+    .login-img img{
+        height : 250px;
+        margin-bottom: 20px;
+    }
+    .login-form form{
+        margin-left : 20px;
+    }
+}

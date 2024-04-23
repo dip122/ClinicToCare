@@ -1,0 +1,71 @@
+.service-class{
+    height : 100vh;
+    padding : 70px 50px 20px;
+    display : flex;
+    justify-content : center;
+    text-align : center;
+    flex-direction: column;
+    background-color: rgb(224,224,224);
+}
+
+.service-heading{
+    font-size : 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.service-desc{
+    font-size : 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color : rgb(118,118,118);
+}
+
+.service-body{
+    display: flex;
+    justify-content : center;
+    text-align: center;
+}
+
+.service-details{
+    font-size : 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}
+.service-img img{
+    height : 100px;
+}
+.service-description{
+    font-size : 12px;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.service-input{
+    padding : 30px;
+    margin-left : 30px;
+    margin-right : 30px;
+    background-color : aliceblue;
+}
+.service-input:hover{
+    background-color : #FFCCFF;
+}
+@media only screen and (max-width: 850px) {
+    .service-class{
+        height : 140vh;
+        padding : 50px 50px 20px;
+    }
+    .service-body{
+        flex-direction: column;
+        gap : 20px;
+    }
+    .login-img img{
+        height : 250px;
+        margin-bottom: 20px;
+    }
+    .login-form form{
+        margin-left : 20px;
+    }
+}

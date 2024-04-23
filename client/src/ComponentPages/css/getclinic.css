@@ -1,0 +1,61 @@
+#getclinic-class {
+    margin: 0;
+    padding: 0;
+    font-family: 'Your Chosen Font', sans-serif; /* Add your preferred font-family */
+    background-color: pink;
+    height: 100vh;
+  }
+  
+.wholeclass {
+    display: flex;
+    flex-direction: column;
+  }
+
+.getclinicclass {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+.singleclinic {
+    border: 1px solid black;
+    padding: 20px;
+    width: 350px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #E5CCFF;
+  }
+  
+.singleclinic div {
+    margin-bottom: 10px;
+    font-size: 15px; 
+  }
+  
+  /* Style for specific elements */
+.singleclinic .Name,
+.singleclinic .doctor_name,
+.singleclinic .phoneno,
+.singleclinic .address,
+.singleclinic .days {
+    font-size: 15px; 
+ }
+.buttonclass {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #middle-class{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  /* Optional: Add media query for responsiveness */
+@media (max-width: 768px) {
+    .singleclinic {
+      width: 100%;
+    }
+  }
+  

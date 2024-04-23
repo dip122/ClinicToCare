@@ -1,0 +1,107 @@
+.contact{
+    height : 100vh;
+    padding : 70px 50px 20px;
+    display: flex;
+    justify-content : center;
+    align-items : center;
+    flex-direction : column;
+    font-size : 30px;
+    background-color: #FFCCE5
+}
+.contact-img img{
+    height : 450px;
+}
+.contact-heading{
+    font-size : 2rem;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-description{
+    font-size : 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color : rgb(118,118,116);
+}
+.contact-form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding : 20px;
+    margin-left : 60px;
+    border-radius :12px;
+    background-color: rgb(218,238,255);
+}
+.contact-form form input{
+    width: 250px;
+    margin: 10px;
+    padding: 7px 20px;
+}
+.contact textarea{
+    resize: none;
+    height : 120px;
+    width : 250px;
+    margin : 10px;
+    padding : 10px 20px;
+}
+.contact-form form input::placeholder,textarea::placeholder{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 850px) {
+    .contact{
+        height : 140vh;
+        padding : 70px 30px 70px;
+    }
+    .contact-body{
+        flex-direction: column;
+    }
+    .contact-img img{
+        height : 270px;
+        margin-bottom: 20px;
+    }
+    .contact-form form{
+        margin-left : 20px;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+    .contact-img img{
+        height : 200px;
+        width: 250px;
+    }
+    .contact-heading{
+        font-size : 15px;
+    }
+    .contact-description{
+        font-size : 13px;
+    }
+    .contact textarea{
+        height: 120px;
+        width: 172px;
+        margin: 10px;
+        padding: 10px 10px;
+        font-size: .7rem;
+    }
+    .contact-form form{
+        margin-left: 0px;
+        padding: 20px 10px;
+    }
+    .contact-form form input{
+        width: 170px;
+        margin: 10px;
+        padding: 7px 10px;
+        font-size: .7rem;
+    }
+    #btn-class{
+        font-size : 10px;
+    }
+}
+
+
+
+

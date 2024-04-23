@@ -1,0 +1,62 @@
+.Getdoc-class {
+    padding : 50px 30px 20px;
+    margin-bottom: 30px;
+}
+
+.get-details {
+    display : flex;
+    justify-content :center;
+    flex-direction :column;
+}
+
+.doc-class {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    border : 1px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.doctor-name {
+    margin-left : 10px;
+    font-size : 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.currdate,
+.visitdate,
+.description,
+.document-upload {
+    margin-left : 10px;
+    font-size : 20px;
+    margin-top: 5px;
+    color: #666;
+}
+
+.doc-upload-container {
+    margin-top: 20px;
+}
+
+.doc-upload-container label,
+.doc-upload-container input[type="file"] {
+    display: block;
+    margin-top: 10px;
+}
+.document-upload{
+    display : flex;
+    gap : 10px;
+    margin-bottom: 12px;
+}
+
+#delete-btn{
+    color : red;
+}
+#middle-class{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size : 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+  }

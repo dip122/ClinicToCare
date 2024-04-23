@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.clinicclass{
+    background-color:pink;
+    padding : 40px;
+    height : 110vh;
+}
+
+.clinicclass .addclinic {
+    width: 100%;
+    max-width: 800px;
+    margin: auto; /* Center the form horizontally */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0.2rem 0.4rem rgba(88, 42, 149, 0.1);
+    text-align: center;
+    background-color: #e6f7ff;
+}
+
+.addclinic .heading {
+    margin-bottom: 20px;
+    color: #4285f4;
+    font-size: 18px;
+}
+
+.addclinic .clinic-desc {
+    font-size: 15px;
+    margin-bottom: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.addclinic #clinic-form {
+    text-align: left;
+}
+
+.addclinic #clinic-form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 0.1rem solid #4285f4;
+    border-radius: 4px;
+}
+
+.addclinic .days {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.addclinic .days-info {
+    flex: 1;
+    text-align: center;
+}
+.closed{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.addclinic .day {
+    font-weight: bold;
+    color: #4285f4;
+    font-size: 15px;
+}
+
+/* Style checkboxes */
+.addclinic input[type="checkbox"] {
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+/* Add hover effect to checkboxes */
+.addclinic input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
+#label-class {
+    margin-bottom: 10px;
+    font-size : 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media only screen and (max-width: 650px) {
+   .days {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+}

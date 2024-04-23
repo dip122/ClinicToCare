@@ -1,0 +1,70 @@
+.Management{
+    height : 100vh;
+    padding : 70px 30px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column;
+    background-color: rgb(238,230,230);
+}
+.heading{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.management-body{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.management-body .body-img{
+    padding : 6px;
+}
+.management-body .body-img img{
+    height: 320px;
+}
+.heading-desc{
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Manage-descriptions{
+    font-size : 20px;
+    width : 500px;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width: 850px) {
+    .Management{
+        height : 110vh;
+        padding : 70px 30px 70px;
+    }
+    .management-body{
+        flex-direction: column;
+    }
+    .management-body .body-img img{
+        height : 250px;
+        margin-bottom: 20px;
+    }
+    .Manage-descriptions{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .Management{
+        height : 110vh;
+        padding : 70px 30px 70px;
+    }
+    .management-body{
+        flex-direction: column;
+    }
+    .management-body .body-img img{
+        height : 250px;
+        width : 300px;
+        margin-bottom: 20px;
+    }
+    .Manage-descriptions{
+        font-size: 15px;
+        width : 300px;
+    }
+}
